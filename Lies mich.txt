@@ -1,0 +1,14 @@
+Führe zu erst start.bat aus um den Server zu installieren und zu starten.
+
+
+#####Hinweise####
+
+Was wird benötigt? 
+
+- Java 17 JDK 
+- 6-12 GB Arbeitsspeicher
+
+Wie kann ich den Ram erhöhen? 
+
+Den Ram(Arbeitsspeicher) kannst du erhöhen indem du in der start.bat datei das -Xmx8G zu deiner gewünschten Ramzahl änderst.
+

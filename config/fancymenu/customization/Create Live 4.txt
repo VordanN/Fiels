@@ -1,0 +1,297 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = Create Live 4
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = createlive4
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -85
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 171
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/button_2_h.png
+  backgroundnormal = fancymenu_data/button_2.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  path = fancymenu_data/steam_burst.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 54
+  action = movebutton
+  y = 67
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/button_a_h.png
+  backgroundnormal = fancymenu_data/button_a.png
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = -74
+  action = movebutton
+  y = 67
+}
+
+customization {
+  identifier = %id=376322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/button_create_h.png
+  backgroundnormal = fancymenu_data/button_create.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -49
+  action = movebutton
+  y = 67
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/button_1_h.png
+  backgroundnormal = fancymenu_data/button_1.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -49
+  action = movebutton
+  y = 90
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/button_0_h.png
+  backgroundnormal = fancymenu_data/button_0.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -74
+  action = movebutton
+  y = 90
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/button_l_h.png
+  backgroundnormal = fancymenu_data/button_l.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/button_3_h.png
+  backgroundnormal = fancymenu_data/button_3.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = fancymenu_data/steam_burst.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 846e5484-d905-44da-bdf5-86c9a0cd89a01680631966971
+  y = 274
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 334
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 0f3c2a8c-031c-48be-b54b-a9b1f0d7a5e41680631966979
+  y = 171
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = fd6505e9-dfe1-4697-a340-8760061f29761680631966979
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 8cc81c7e-d143-4c5d-be85-30816474ee1a1680631966979
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/create-live_4%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/button_cl4_h.png
+  description = Modpack on CurseForge
+  label = 
+  loopbackgroundanimations = true
+  x = 54
+  width = 20
+  action = addbutton
+  actionid = d249c732-1b6b-4d13-bd60-b7ac8156be231680632401160
+  y = 90
+  backgroundnormal = fancymenu_data/button_cl4.png
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Create Live 4 {"placeholder":"json","values":{"source":"packinfo.json","json_path":"$.modpack.version"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 114
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 943d13eb-9167-48fb-907f-c16c64f026541680633860426
+  y = -20
+  alignment = left
+  height = 11
+}
+
+customization {
+  slim = false
+  auto_skin = false
+  scale = 30
+  showname = false
+  follow_mouse = true
+  capeurl = http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = e72c0cfb-6f79-4cfe-8289-df926f3d1c701680634866649
+  playername = RGB_Pixl
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = mid-centered
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/c86e70f03ed5c98548ef102a090631a107ac2b17609d53c122253324fc521296
+  crouching = false
+  x = -130
+  width = 18
+  parrot_left_shoulder = true
+  y = 18
+  parrot = true
+}
+
+customization {
+  path = fancymenu_data/cl4_logo_full.png
+  orientation = mid-centered
+  x = -105
+  width = 208
+  action = addtexture
+  actionid = 955da7a9-e25d-4f6b-8450-56b02d5a5d6c1680634765068
+  y = -140
+  height = 156
+}
+
